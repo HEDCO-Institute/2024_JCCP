@@ -100,9 +100,8 @@ To replicate our results:
 
 **If you have Rstudio and Git installed and connected to your GitHub account:**
 
-1. Clone the [main repository](https://github.com/HEDCO-Institute/Depression_Prevention_Overview) to your local machine ([click for help](https://book.cds101.com/using-rstudio-server-to-clone-a-github-repo-as-a-new-project.html#step---2))
-1. Open the `Depression_Prevention_Overview` R project in R Studio
-1. Navigate to the `publications/2024_JCCP` folder
+1. Clone the [main repository](https://github.com/HEDCO-Institute/2024_JCCP) to your local machine ([click for help](https://book.cds101.com/using-rstudio-server-to-clone-a-github-repo-as-a-new-project.html#step---2))
+1. Open the `2024_JCCP` R project in R Studio
 1. Run the `2024_JCCP_analysis.Rmd` script in the `code` subfolder (this should automatically activate the `renv` environment)
 
 **If you need to install or connect R, Rstudio, Git, and/or GitHub:**
@@ -115,9 +114,8 @@ To replicate our results:
 
 **To reproduce our results without using Git and GitHub, you may use the following steps:** 
 
-1. Download the ZIP file from the [main repository](https://github.com/HEDCO-Institute/Depression_Prevention_Overview) 
-1. Open the `Depression_Prevention_Overview` R project in R Studio (this will automatically set the working directory)
-1. Navigate to the `publications/2024_JCCP` folder
+1. Download the ZIP file from the [main repository](https://github.com/HEDCO-Institute/2024_JCCP) 
+1. Open the `2024_JCCP` R project in R Studio (this will automatically set the working directory)
 1. Run the `2024_JCCP_analysis.Rmd` script in the `code` subfolder (this should automatically activate the `renv` environment)
 
 
