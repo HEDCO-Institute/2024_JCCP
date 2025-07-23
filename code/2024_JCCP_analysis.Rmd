@@ -26,11 +26,7 @@ output: html_document
 if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
 if (!requireNamespace("here", quietly = TRUE)) install.packages("here")
 
-# Load environment
-renv::load(here::here("publications", "2024_JCCP"))
 
-# Restore any missing packages
-renv::restore(here::here("publications", "2024_JCCP"))
 
 ```
 
@@ -49,14 +45,15 @@ library(gt)
 library(webshot2)
 library(stringi)
 library(bib2df)
+#devtools::install_github('thdiakon/ccaR')
 library(ccaR)
 
 
 # Set file path for data importing
-cwd <- here::here("publications", "2024_JCCP", "data")
+cwd <- here::here("data")
 
 # Set output directory
-outputs_dir <- here("publications", "2024_JCCP", "outputs")
+outputs_dir <- here("outputs")
 
 ```
 
