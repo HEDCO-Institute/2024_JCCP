@@ -65,13 +65,9 @@ The `2024_JCCP_analysis.Rmd` file contains code to install the correct package v
 ```r
 if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
 ```
-2. Load the environment:
+2. Restore any missing packages (you should only need to run this code once):
 ```r
-renv::load("publications/2024_JCCP")
-```
-3. Restore any missing packages:
-```r
-renv::restore("publications/2024_JCCP")
+renv::restore()
 ```
 
 Once the environment is restored, load the necessary packages:
